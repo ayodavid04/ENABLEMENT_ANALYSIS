@@ -1,6 +1,6 @@
 import os
 
-DB_CONFiG = {
+DB_CONFIG = {
     'host': 'data-enable-db.ch4cwsua2n2h.eu-north-1.rds.amazonaws.com',
     'port': 5432,
     'database': 'data_enablement_project',

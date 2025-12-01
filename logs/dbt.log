@@ -1,0 +1,30 @@
+[0m01:46:19.700497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E629FE0830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62A7E0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62AE17ED0>]}
+
+
+============================== 01:46:19.711702 | a365a061-6308-4275-8961-17db3dde1d59 ==============================
+[0m01:46:19.711702 [info ] [MainThread]: Running with dbt=1.10.15
+[0m01:46:19.713639 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'invocation_command': 'dbt init legal_data_enablement', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\ayoda\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m01:46:19.781760 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\ayoda\.dbt
+[0m01:46:19.787763 [debug] [MainThread]: Starter project path: C:\Users\ayoda\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m01:46:19.868700 [info ] [MainThread]: 
+Your new dbt project "legal_data_enablement" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:46:19.870245 [info ] [MainThread]: Setting up your profile.
+[0m01:53:48.274382 [info ] [MainThread]: Profile legal_data_enablement written to C:\Users\ayoda\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:53:48.276390 [debug] [MainThread]: Command `dbt init` succeeded at 01:53:48.276190 after 449.05 seconds
+[0m01:53:48.276935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62B0A8510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62AFF70B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62ACDBBD0>]}
+[0m01:53:48.277463 [debug] [MainThread]: Flushing usage events
+[0m01:53:48.808680 [debug] [MainThread]: An error was encountered while trying to flush usage events

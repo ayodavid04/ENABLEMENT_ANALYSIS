@@ -1,0 +1,288 @@
+{
+    "application": "cms_app_b",
+    "schema": [
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "id",
+            "standardised_field_name": "id",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "date_opened",
+            "standardised_field_name": "date_opened",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "solicitor",
+            "standardised_field_name": "solicitor",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "category",
+            "standardised_field_name": "category",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "severity",
+            "standardised_field_name": "severity",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "claimant",
+            "standardised_field_name": "claimant",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "status",
+            "standardised_field_name": "status",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "division",
+            "standardised_field_name": "division",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_b",
+            "raw_field_name": "risk_score",
+            "standardised_field_name": "risk_score",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        }
+    ],
+    "picklists": [
+        {
+            "application_name": "cms_app_b",
+            "field_name": "solicitor",
+            "raw_value": "A.Patel",
+            "value_count": 101
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "solicitor",
+            "raw_value": "S.Jones",
+            "value_count": 100
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "solicitor",
+            "raw_value": "R.Smith",
+            "value_count": 99
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "category",
+            "raw_value": "EmployersLiability",
+            "value_count": 102
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "category",
+            "raw_value": "RoadTraffic",
+            "value_count": 101
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "category",
+            "raw_value": "PublicLiability",
+            "value_count": 97
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "severity",
+            "raw_value": "Minor",
+            "value_count": 161
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "severity",
+            "raw_value": "Major",
+            "value_count": 139
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "claimant",
+            "raw_value": "Michael",
+            "value_count": 85
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "claimant",
+            "raw_value": "Aisha",
+            "value_count": 73
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "claimant",
+            "raw_value": "Sarah",
+            "value_count": 72
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "claimant",
+            "raw_value": "John",
+            "value_count": 70
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "status",
+            "raw_value": "Settled",
+            "value_count": 109
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "status",
+            "raw_value": "Active",
+            "value_count": 97
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "status",
+            "raw_value": "Completed",
+            "value_count": 94
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "division",
+            "raw_value": "Division2",
+            "value_count": 112
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "division",
+            "raw_value": "Division1",
+            "value_count": 99
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "division",
+            "raw_value": "Division3",
+            "value_count": 89
+        }
+    ],
+    "profile": [
+        {
+            "application_name": "cms_app_b",
+            "field_name": "id",
+            "data_type": "integer",
+            "sample_values": "1001, 1002, 1003, 1004, 1005",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "date_opened",
+            "data_type": "string",
+            "sample_values": "2022-02-01, 2022-02-02, 2022-02-03, 2022-02-04, 2022-02-05",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "solicitor",
+            "data_type": "string",
+            "sample_values": "R.Smith, S.Jones, A.Patel",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "category",
+            "data_type": "string",
+            "sample_values": "RoadTraffic, EmployersLiability, PublicLiability",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "severity",
+            "data_type": "string",
+            "sample_values": "Minor, Major",
+            "null_count": 0,
+            "distinct_count": 2,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "claimant",
+            "data_type": "string",
+            "sample_values": "John, Sarah, Michael, Aisha",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "status",
+            "data_type": "string",
+            "sample_values": "Completed, Settled, Active",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "division",
+            "data_type": "string",
+            "sample_values": "Division1, Division3, Division2",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_b",
+            "field_name": "risk_score",
+            "data_type": "integer",
+            "sample_values": "58, 72, 71, 79, 35",
+            "null_count": 0,
+            "distinct_count": 95,
+            "total_rows": 300
+        }
+    ]
+}

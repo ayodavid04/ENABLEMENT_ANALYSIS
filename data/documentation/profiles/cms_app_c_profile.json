@@ -1,0 +1,281 @@
+{
+    "application": "cms_app_c",
+    "schema": [
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "caseRef",
+            "standardised_field_name": "caseref",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "start_dt",
+            "standardised_field_name": "start_dt",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "feeEarner",
+            "standardised_field_name": "feeearner",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "typeCode",
+            "standardised_field_name": "typecode",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "sevCode",
+            "standardised_field_name": "sevcode",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "partyName",
+            "standardised_field_name": "partyname",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "caseStatus",
+            "standardised_field_name": "casestatus",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_c",
+            "raw_field_name": "area",
+            "standardised_field_name": "area",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        }
+    ],
+    "picklists": [
+        {
+            "application_name": "cms_app_c",
+            "field_name": "feeEarner",
+            "raw_value": "Smith R",
+            "value_count": 107
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "feeEarner",
+            "raw_value": "Jones T",
+            "value_count": 102
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "feeEarner",
+            "raw_value": "Brown K",
+            "value_count": 91
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "typeCode",
+            "raw_value": "3",
+            "value_count": 115
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "typeCode",
+            "raw_value": "2",
+            "value_count": 100
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "typeCode",
+            "raw_value": "1",
+            "value_count": 85
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "sevCode",
+            "raw_value": "10",
+            "value_count": 101
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "sevCode",
+            "raw_value": "30",
+            "value_count": 100
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "sevCode",
+            "raw_value": "20",
+            "value_count": 99
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "partyName",
+            "raw_value": "P1",
+            "value_count": 84
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "partyName",
+            "raw_value": "P4",
+            "value_count": 82
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "partyName",
+            "raw_value": "P2",
+            "value_count": 75
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "partyName",
+            "raw_value": "P3",
+            "value_count": 59
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "caseStatus",
+            "raw_value": "O",
+            "value_count": 123
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "caseStatus",
+            "raw_value": "S",
+            "value_count": 92
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "caseStatus",
+            "raw_value": "C",
+            "value_count": 85
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "area",
+            "raw_value": "B",
+            "value_count": 93
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "area",
+            "raw_value": "C",
+            "value_count": 70
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "area",
+            "raw_value": "A",
+            "value_count": 69
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "area",
+            "raw_value": "D",
+            "value_count": 68
+        }
+    ],
+    "profile": [
+        {
+            "application_name": "cms_app_c",
+            "field_name": "caseRef",
+            "data_type": "integer",
+            "sample_values": "5001, 5002, 5003, 5004, 5005",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "start_dt",
+            "data_type": "string",
+            "sample_values": "2021-03-01, 2021-03-02, 2021-03-03, 2021-03-04, 2021-03-05",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "feeEarner",
+            "data_type": "string",
+            "sample_values": "Smith R, Brown K, Jones T",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "typeCode",
+            "data_type": "integer",
+            "sample_values": "2, 3, 1",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "sevCode",
+            "data_type": "integer",
+            "sample_values": "30, 10, 20",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "partyName",
+            "data_type": "string",
+            "sample_values": "P1, P2, P3, P4",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "caseStatus",
+            "data_type": "string",
+            "sample_values": "O, C, S",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_c",
+            "field_name": "area",
+            "data_type": "string",
+            "sample_values": "D, A, B, C",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        }
+    ]
+}

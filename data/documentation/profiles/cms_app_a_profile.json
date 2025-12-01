@@ -1,0 +1,306 @@
+{
+    "application": "cms_app_a",
+    "schema": [
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "case_id",
+            "standardised_field_name": "case_id",
+            "data_type": "integer",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "open_date",
+            "standardised_field_name": "open_date",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "close_date",
+            "standardised_field_name": "close_date",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": false,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "fee_earner",
+            "standardised_field_name": "fee_earner",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "case_type",
+            "standardised_field_name": "case_type",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "injury_severity",
+            "standardised_field_name": "injury_severity",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "client_name",
+            "standardised_field_name": "client_name",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "claim_status",
+            "standardised_field_name": "claim_status",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        },
+        {
+            "application_name": "cms_app_a",
+            "raw_field_name": "region",
+            "standardised_field_name": "region",
+            "data_type": "string",
+            "is_nullable": false,
+            "is_picklist": true,
+            "description": null,
+            "gisds_mapping": null
+        }
+    ],
+    "picklists": [
+        {
+            "application_name": "cms_app_a",
+            "field_name": "fee_earner",
+            "raw_value": "Patel",
+            "value_count": 78
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "fee_earner",
+            "raw_value": "Jones",
+            "value_count": 77
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "fee_earner",
+            "raw_value": "Brown",
+            "value_count": 73
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "fee_earner",
+            "raw_value": "Smith",
+            "value_count": 72
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "case_type",
+            "raw_value": "EL",
+            "value_count": 108
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "case_type",
+            "raw_value": "RTA",
+            "value_count": 100
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "case_type",
+            "raw_value": "PL",
+            "value_count": 92
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "injury_severity",
+            "raw_value": "Medium",
+            "value_count": 118
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "injury_severity",
+            "raw_value": "High",
+            "value_count": 92
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "injury_severity",
+            "raw_value": "Low",
+            "value_count": 90
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "client_name",
+            "raw_value": "ClientD",
+            "value_count": 84
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "client_name",
+            "raw_value": "ClientB",
+            "value_count": 78
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "client_name",
+            "raw_value": "ClientC",
+            "value_count": 72
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "client_name",
+            "raw_value": "ClientA",
+            "value_count": 66
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "claim_status",
+            "raw_value": "Closed",
+            "value_count": 112
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "claim_status",
+            "raw_value": "Open",
+            "value_count": 98
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "claim_status",
+            "raw_value": "Settled",
+            "value_count": 90
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "region",
+            "raw_value": "South",
+            "value_count": 82
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "region",
+            "raw_value": "North",
+            "value_count": 80
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "region",
+            "raw_value": "East",
+            "value_count": 74
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "region",
+            "raw_value": "West",
+            "value_count": 64
+        }
+    ],
+    "profile": [
+        {
+            "application_name": "cms_app_a",
+            "field_name": "case_id",
+            "data_type": "integer",
+            "sample_values": "1, 2, 3, 4, 5",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "open_date",
+            "data_type": "string",
+            "sample_values": "2023-01-01, 2023-01-02, 2023-01-03, 2023-01-04, 2023-01-05",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "close_date",
+            "data_type": "string",
+            "sample_values": "2023-06-01, 2023-06-02, 2023-06-03, 2023-06-04, 2023-06-05",
+            "null_count": 0,
+            "distinct_count": 300,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "fee_earner",
+            "data_type": "string",
+            "sample_values": "Patel, Jones, Brown, Smith",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "case_type",
+            "data_type": "string",
+            "sample_values": "PL, EL, RTA",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "injury_severity",
+            "data_type": "string",
+            "sample_values": "Low, High, Medium",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "client_name",
+            "data_type": "string",
+            "sample_values": "ClientC, ClientD, ClientB, ClientA",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "claim_status",
+            "data_type": "string",
+            "sample_values": "Closed, Open, Settled",
+            "null_count": 0,
+            "distinct_count": 3,
+            "total_rows": 300
+        },
+        {
+            "application_name": "cms_app_a",
+            "field_name": "region",
+            "data_type": "string",
+            "sample_values": "North, East, West, South",
+            "null_count": 0,
+            "distinct_count": 4,
+            "total_rows": 300
+        }
+    ]
+}
