@@ -28,3 +28,61 @@ Happy modeling!
 [0m01:53:48.276935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62B0A8510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62AFF70B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E62ACDBBD0>]}
 [0m01:53:48.277463 [debug] [MainThread]: Flushing usage events
 [0m01:53:48.808680 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:07:38.107877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026779940830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002677A140B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002677A777ED0>]}
+
+
+============================== 03:07:38.113151 | d3f74bf9-5f13-4a44-a906-9f37ba89ac6e ==============================
+[0m03:07:38.113151 [info ] [MainThread]: Running with dbt=1.10.15
+[0m03:07:38.113764 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\ayoda\\.dbt', 'cache_selected_only': 'False', 'log_format': 'default', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m03:07:38.138663 [info ] [MainThread]: dbt version: 1.10.15
+[0m03:07:38.139039 [info ] [MainThread]: python version: 3.13.3
+[0m03:07:38.139350 [info ] [MainThread]: python path: C:\Users\ayoda\AppData\Local\Programs\Python\Python313\python.exe
+[0m03:07:38.139712 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m03:07:38.197986 [info ] [MainThread]: Using profiles dir at C:\Users\ayoda\.dbt
+[0m03:07:38.198502 [info ] [MainThread]: Using profiles.yml file at C:\Users\ayoda\.dbt\profiles.yml
+[0m03:07:38.198777 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ayoda\CODING PRACTICE\DATA ENABLEMENT\dbt_project.yml
+[0m03:07:38.199837 [info ] [MainThread]: adapter type: postgres
+[0m03:07:38.200194 [info ] [MainThread]: adapter version: 1.9.1
+[0m03:07:38.200472 [info ] [MainThread]: Configuration:
+[0m03:07:38.200690 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:07:38.200903 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m03:07:38.201118 [info ] [MainThread]: Required dependencies:
+[0m03:07:38.201336 [debug] [MainThread]: Executing "git --help"
+[0m03:07:38.237858 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m03:07:38.238318 [debug] [MainThread]: STDERR: "b''"
+[0m03:07:38.238645 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m03:07:38.238979 [info ] [MainThread]: Connection:
+[0m03:07:38.239285 [info ] [MainThread]:   host: data-enable-db.ch4cwsua2n2h.eu-north-1.rds.amazonaws.com
+[0m03:07:38.239639 [info ] [MainThread]:   port: 5432
+[0m03:07:38.239894 [info ] [MainThread]:   user: postgres
+[0m03:07:38.240125 [info ] [MainThread]:   database: data_enablement_project
+[0m03:07:38.240334 [info ] [MainThread]:   schema: staging
+[0m03:07:38.240532 [info ] [MainThread]:   connect_timeout: 10
+[0m03:07:38.240809 [info ] [MainThread]:   role: None
+[0m03:07:38.241173 [info ] [MainThread]:   search_path: None
+[0m03:07:38.241447 [info ] [MainThread]:   keepalives_idle: 0
+[0m03:07:38.241704 [info ] [MainThread]:   sslmode: None
+[0m03:07:38.241930 [info ] [MainThread]:   sslcert: None
+[0m03:07:38.242147 [info ] [MainThread]:   sslkey: None
+[0m03:07:38.242362 [info ] [MainThread]:   sslrootcert: None
+[0m03:07:38.242566 [info ] [MainThread]:   application_name: dbt
+[0m03:07:38.242762 [info ] [MainThread]:   retries: 1
+[0m03:07:38.243174 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m03:07:38.464414 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m03:07:43.055205 [debug] [MainThread]: Using postgres connection "debug"
+[0m03:07:43.055516 [debug] [MainThread]: On debug: select 1 as id
+[0m03:07:43.055708 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:07:43.963251 [debug] [MainThread]: SQL status: SELECT 1 in 0.907 seconds
+[0m03:07:43.964127 [debug] [MainThread]: On debug: Close
+[0m03:07:43.964568 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:07:43.965323 [info ] [MainThread]: [31m1 check failed:[0m
+[0m03:07:43.965886 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ayoda\CODING PRACTICE\DATA ENABLEMENT\dbt_project.yml> not found
+
+[0m03:07:43.966744 [debug] [MainThread]: Command `dbt debug` failed at 03:07:43.966655 after 6.11 seconds
+[0m03:07:43.966978 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:07:43.967202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002677AAF6780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002677AB0AD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002677A9F7BD0>]}
+[0m03:07:43.967447 [debug] [MainThread]: Flushing usage events
+[0m03:07:44.519615 [debug] [MainThread]: An error was encountered while trying to flush usage events
