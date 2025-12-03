@@ -1,7 +1,7 @@
 select
     caseRef::varchar as case_id,
-    start_dt::timestamp as open_date,
-    null as close_date,
+    start_dt::text as open_date,
+    null::text as close_date,
     feeEarner::varchar as fee_earner,
     case
         when typeCode = '1' then 'rta'

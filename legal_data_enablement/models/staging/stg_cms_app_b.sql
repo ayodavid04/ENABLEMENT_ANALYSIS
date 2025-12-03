@@ -1,7 +1,7 @@
 select
     id::varchar as case_id,
-    date_opened::timestamp as open_date,
-    null as close_date,
+    date_opened::text as open_date,
+    null::text as close_date,
     solicitor::varchar as fee_earner,
     lower(category)::varchar as case_type,
     lower(severity)::varchar as injury_severity,
