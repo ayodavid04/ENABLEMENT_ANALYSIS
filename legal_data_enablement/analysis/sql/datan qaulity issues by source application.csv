@@ -1,0 +1,4 @@
+"source_application","bad_case_id_count","bad_status_count","unmapped_category_count","missing_severity_count","total_cases"
+"cms_app_c","0","1","1","1","301"
+"cms_app_a","0","0","1","1","301"
+"cms_app_b","0","0","301","140","301"
